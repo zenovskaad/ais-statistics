@@ -1,0 +1,33 @@
+.btn, .btnActive, .btnInactive, .btnActiveFill {
+    height: 42px;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    box-shadow: none;
+}
+
+.btnActive, .btnActiveFill {
+    border: 1px solid cornflowerblue;
+}
+
+.btnInactive {
+    border: 1px solid grey;
+}
+
+.btnActiveFill {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 600;
+}
+
+.hover:hover {
+    border-color: darkgrey;
+}

@@ -1,0 +1,33 @@
+.input, .button {
+    height: 50px;
+    width: fit-content;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    margin-right: 0;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    background-color: var(--white);
+    border-radius: 5px;
+    color: var(--black);
+    box-shadow: none;
+}
+
+.input {
+    border: 1px solid var(--primary-light-grey);
+    width: 1200px;
+}
+
+.button {
+    margin-left: 0;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 1px solid var(--blue);
+    width: 155px;
+}
+
+.input :hover {
+    border-color: var(--secondary-dark-grey);
+}

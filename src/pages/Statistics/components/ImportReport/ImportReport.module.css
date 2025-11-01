@@ -1,0 +1,74 @@
+.report-table {
+    border-collapse: collapse;
+    margin-top: 16px;
+    border: none;
+    overflow: hidden;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+.report-table td {
+    border: none;
+}
+
+.report-table td:first-child{
+    text-align: left;
+    width:550px;
+}
+
+.report-table td:nth-child(2),
+.report-table td:nth-child(3) {
+    text-align: center;
+    width: 70px;
+}
+
+.report-table td:nth-child(4) {
+    padding-left: 50px;
+}
+
+.title{
+    color: darkgrey;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-bottom: 40px;
+    font-weight: 600;
+}
+
+.dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.barWrapper {
+    z-index: 1;
+    height: 40px;
+    width: 750px;
+    margin-bottom: 4px;
+    overflow: hidden;
+}
+
+.bar {
+    height: 100%;
+    z-index: 2;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    transition: width 0.3s ease;
+}
+
+.barPercentText  {
+    position: relative;
+    top: -30px;
+    z-index: 3;
+    padding-left: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 16px;
+    color: black;
+}

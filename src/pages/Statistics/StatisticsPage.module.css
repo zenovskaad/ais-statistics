@@ -1,0 +1,107 @@
+.wrap {
+    flex: 1;
+    font-family: RobotoRegular, sans-serif;
+    background: grey;
+}
+
+.page{
+    display: flex;
+    flex-direction: column;
+    max-width: 1290px;
+}
+
+.filterContainer{
+    justify-content: space-between;
+}
+
+.innerFilterContainer{
+    display: flex;
+}
+
+.filterContainer, .buttonsContainer, .filterContainerWithoutBorder{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.filterContainer, .buttonsContainer{
+    border-bottom: 1px solid grey;
+}
+
+.filterContainer{
+    padding-right: 40px;
+}
+
+.diagramsContainer{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    max-width: 1000px;
+}
+
+.filter{
+    display: flex;
+    color:  darkgrey;
+    font-size: 16px;
+    font-weight: 400;
+    align-items: center;
+    margin-right: 10px;
+    gap: 15px;
+}
+
+.loader {
+    height: 50px;
+    display: flex;
+}
+
+.selectYear, .selectMonthYear{
+    height: 42px;
+    width: fit-content;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+}
+
+.selectYear{
+    font-weight: 400;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.selectMonthYear{
+    font-weight: 600;
+    padding-right: 0;
+    border: none;
+}
+
+.selectPeriod{
+    position: relative;
+    height: 0;
+    top: -60px;
+    display: flex;
+    justify-content: end;
+}
+
+.selectPeriod select{
+    margin: 15px;
+    margin-right: 50px;
+}
+
+.hidden{
+    display: none;
+}
+
+.pieDiagrams{
+    display: flex;
+    justify-content: space-between;
+    padding-left:50px;
+    padding-right:320px;
+    padding-top: 50px;
+}

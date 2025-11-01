@@ -1,0 +1,57 @@
+.container{
+    /*width: 40%;*/
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 60px;
+}
+
+.diagramSuccessResume {
+    width: 400px;
+    margin-bottom: 50px;
+}
+
+.diagramTitle{
+    color: darkgrey;
+    align-self: center;
+    font-size: 16px;
+    margin-top: -40px;
+    padding-left: 10px;
+    padding-bottom: 43px;
+}
+
+.legend {
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 363px;
+    min-width: 363px;
+    margin-top: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.legendItem {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.legendHalfItem{
+    display: flex;
+    gap: 20px;
+}
+
+.legendColor {
+    width: 12px;
+    height: 12px;
+    margin: 8px;
+}
+
+.legendLabel{
+    margin: 8px;
+}

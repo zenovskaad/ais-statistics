@@ -1,0 +1,58 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px 40px 25px 68px;
+    border-bottom: 1px solid grey;
+    font: 400 16px/22px RobotoRegular;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    color: black;
+    text-decoration: none;
+    margin: 16px;
+}
+
+.link:hover{
+    color: cornflowerblue;
+}
+
+.subLink {
+    color: darkgrey;
+    cursor: default;
+}
+
+.exit {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 50px;
+    padding: 0 13px;
+    border: none;
+    border-radius: 5px;
+    background: grey;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.exit:hover {
+    color: white;
+    background: cornflowerblue;
+    transition: .3s;
+}
+
+.exit svg {
+    rotate: 180deg;
+}
+
+.exit:hover svg path {
+    stroke: white;
+    transition: .3s;
+}
