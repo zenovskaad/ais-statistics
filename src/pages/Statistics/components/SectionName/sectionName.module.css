@@ -1,22 +1,16 @@
-.sectionActive, .sectionNotActive{
+.sectionActive, .sectionNotActive {
     height: 42px;
     width: fit-content;
-    margin: 10px;
-    margin-bottom:-10px;
-    margin-right: 30px;
+    margin: 10px 30px -10px 10px;
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
     box-shadow: none;
     border: none;
     background-color: white;
+    color: dimgrey;
 }
 
-.sectionActive{
-color: var(--blue);
-    border-bottom: 2px solid var(--blue);
-}
-
-.sectionNotActive{
-
+.sectionActive {
+    color: cornflowerblue;
 }

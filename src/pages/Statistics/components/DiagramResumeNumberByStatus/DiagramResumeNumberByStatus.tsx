@@ -8,6 +8,7 @@ import {
   Title,
   Tooltip,
 } from 'chart.js';
+import type { ChartOptions } from 'chart.js';
 import styles from './DiagramResumeNumberByStatus.module.css';
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip);
@@ -118,7 +119,6 @@ export const DiagramResumeNumberByStatus: React.FC<DiagramResumeNumberByStatusPr
         caretSize: 0,
         bodyFont: {
           size: 26,
-          family: 'Roboto',
           weight: 'bold',
         },
         displayColors: false,
@@ -141,7 +141,6 @@ export const DiagramResumeNumberByStatus: React.FC<DiagramResumeNumberByStatusPr
           padding: 30,
           font: {
             size: 16,
-            family: 'Roboto',
           },
         },
         ticks: {
@@ -149,7 +148,6 @@ export const DiagramResumeNumberByStatus: React.FC<DiagramResumeNumberByStatusPr
           color: '#656263',
           font: {
             size: 16,
-            family: 'Roboto',
           },
         },
         grid: {
@@ -167,7 +165,6 @@ export const DiagramResumeNumberByStatus: React.FC<DiagramResumeNumberByStatusPr
           color: '#656263',
           font: {
             size: 12,
-            family: 'Roboto',
           },
         },
       },

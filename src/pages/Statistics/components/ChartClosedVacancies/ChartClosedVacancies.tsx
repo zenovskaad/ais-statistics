@@ -9,6 +9,7 @@ import {
   CategoryScale,
   LineElement,
 } from 'chart.js';
+import type { ChartOptions } from 'chart.js';
 import styles from './ChartClosedVacancies.module.css';
 
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend, CategoryScale, LineElement);
@@ -68,7 +69,7 @@ export const ChartClosedVacancies: React.FC<ChartClosedVacanciesProps> = ({
         hoverBorderWidth: 3,
         pointRadius: 6,
         pointHoverRadius: 10,
-        pointBackgroundColor: '#2969FF', // Оставляем точки без градиента
+        pointBackgroundColor: '#2969FF',
       },
     ],
   };
@@ -80,7 +81,7 @@ export const ChartClosedVacancies: React.FC<ChartClosedVacanciesProps> = ({
         ticks: {
           color: '#656263',
           padding: 10,
-          font: { size: 12, family: 'Roboto' },
+          font: { size: 12 },
         },
         grid: { display: false },
       },
@@ -91,13 +92,13 @@ export const ChartClosedVacancies: React.FC<ChartClosedVacanciesProps> = ({
           text: 'Среднее количество дней',
           color: '#656263',
           padding: 30,
-          font: { size: 16, family: 'Roboto' },
+          font: { size: 16 },
         },
         ticks: {
           color: '#656263',
           padding: 10,
           stepSize: 1,
-          font: { size: 16, family: 'Roboto' },
+          font: { size: 16 },
         },
       },
     },
@@ -115,7 +116,7 @@ export const ChartClosedVacancies: React.FC<ChartClosedVacanciesProps> = ({
         borderRadius: 12,
         padding: 16,
         caretSize: 0,
-        bodyFont: { size: 26, family: 'Roboto', weight: 'bold' },
+        bodyFont: { size: 26, weight: 'bold' },
         displayColors: false,
         callbacks: {
           label: (context: any) => `${context.raw.y}`,

@@ -1,33 +1,36 @@
-.input, .button {
+.input, .buttonSearch {
     height: 50px;
     width: fit-content;
-    padding: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 10px 30px;
     margin: 10px;
-    margin-right: 0;
+    box-sizing: border-box;
     font-size: 16px;
     font-weight: 400;
     cursor: pointer;
-    background-color: var(--white);
+    background-color: white;
     border-radius: 5px;
-    color: var(--black);
+    color: black;
     box-shadow: none;
 }
 
 .input {
-    border: 1px solid var(--primary-light-grey);
-    width: 1200px;
+    border: 1px solid darkgrey;
+    width: 100%;
 }
 
-.button {
+.buttonSearch {
     margin-left: 0;
-    background-color: var(--blue);
-    color: var(--white);
-    border: 1px solid var(--blue);
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid cornflowerblue;
     width: 155px;
 }
 
-.input :hover {
-    border-color: var(--secondary-dark-grey);
+.buttonSearch:hover {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.statisticsInput{
+    display: flex;
 }

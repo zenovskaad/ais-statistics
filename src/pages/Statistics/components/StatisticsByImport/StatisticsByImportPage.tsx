@@ -249,7 +249,7 @@ export const StatisticsByImportPage = () => {
         </div>
       ) : (
         <>
-          <div className={styles['diagramsContainer']}>
+          <div className={styles['reportsContainer']}>
             <ImportReport
               title={'Удачно импортированные резюме и ошибки при импорте'}
               successImport={successImport}

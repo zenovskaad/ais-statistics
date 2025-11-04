@@ -26,7 +26,7 @@ export const ImportReport: React.FC<ImportReportProps> = (props,) => {
   const {successImport,    errorImport, duplicateImport, successImportPercent, errorImportPercent, duplicateImportPercent, title} = props;
 
   return (
-    <div>
+    <>
       <div className={styles.title}>{title}</div>
       <div>
 
@@ -99,6 +99,6 @@ export const ImportReport: React.FC<ImportReportProps> = (props,) => {
         </table>
 
       </div>
-    </div>
+    </>
   )
 };

@@ -5,8 +5,8 @@ import {
   ArcElement,
   Tooltip,
   Legend,
-  // ChartOptions,
 } from 'chart.js'
+import type { ChartOptions } from 'chart.js';
 import ChartDataLabels from 'chartjs-plugin-datalabels'
 import styles from './DiagramResumeWithoutVacancy.module.css'
 
@@ -65,10 +65,10 @@ export const DiagramResumeWithoutVacancy: React.FC<DiagramResumeWithoutVacancyPr
         display: false,
       },
       datalabels: {
-        color: '#000000', // ← ЧЕРНЫЙ ЦВЕТ текста
+        color: '#000000',
         font: {
           size: 13,
-          weight: 'normal', // можно 'bold' для жирного
+          weight: 'normal',
         },
         formatter: (value: number, context) => {
           const data = context.chart.data.datasets[0].data as number[];
@@ -86,7 +86,6 @@ export const DiagramResumeWithoutVacancy: React.FC<DiagramResumeWithoutVacancyPr
         caretSize: 0,
         bodyFont: {
           size: 20,
-          family: 'Roboto',
           weight: 'bold',
         },
         displayColors: false,

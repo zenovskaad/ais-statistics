@@ -6,7 +6,8 @@
     box-sizing: border-box;
     padding: 25px 40px 25px 68px;
     border-bottom: 1px solid grey;
-    font: 400 16px/22px RobotoRegular;
+    font-weight: 400 ;
+    font-size: 16px;
 }
 
 .navigation {
@@ -22,6 +23,7 @@
 
 .link:hover{
     color: cornflowerblue;
+    cursor: pointer;
 }
 
 .subLink {
@@ -37,13 +39,13 @@
     padding: 0 13px;
     border: none;
     border-radius: 5px;
-    background: grey;
+    color:white;
+    background: darkgrey;
     cursor: pointer;
     transition: .3s;
 }
 
 .exit:hover {
-    color: white;
     background: cornflowerblue;
     transition: .3s;
 }

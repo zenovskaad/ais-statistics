@@ -37,7 +37,7 @@ interface ImportTableProps {
 export const ImportTable: React.FC<ImportTableProps> = ({ data }) => {
 
   return (
-    <>
+    <div>
       <table className={styles['table-header']}>
         <thead>
           <tr>
@@ -60,6 +60,6 @@ export const ImportTable: React.FC<ImportTableProps> = ({ data }) => {
       ) : (
         <div className={styles['empty-list']}>Список импорта пуст</div>
       )}
-    </>
+    </div>
   )
 }

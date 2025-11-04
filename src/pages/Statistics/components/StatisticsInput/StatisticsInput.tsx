@@ -13,16 +13,16 @@ export const StatisticsInput: React.FC<StatisticsInputProps> = ({
                                                                   onSearch,
                                                                 }) => {
   return (
-    <>
+    <div className={styles.statisticsInput}>
       <input
         className={styles.input}
         placeholder="Поиск"
         value={value}
         onChange={onChange}
       />
-      <button className={styles.button} onClick={onSearch}>
+      <button className={styles.buttonSearch} onClick={onSearch}>
         Найти
       </button>
-    </>
+    </div>
   )
 }

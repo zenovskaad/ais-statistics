@@ -1,11 +1,12 @@
 import './App.css'
 import {StatisticsPage} from "./pages/Statistics/StatisticPage.tsx";
+import {SideBar} from "./pages/Statistics/components/SideBar/SideBar.tsx";
 
 function App() {
 
   return (
     <div className={'app'}>
-        <div className={'sidebar'}></div>
+        <SideBar/>
         <div className={'content'}>
             <StatisticsPage/>
         </div>

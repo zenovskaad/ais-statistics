@@ -5,6 +5,7 @@
     overflow: hidden;
     margin-left: 10px;
     margin-bottom: 25px;
+    width: 100%;
 }
 
 .report-table td {
@@ -13,21 +14,20 @@
 
 .report-table td:first-child{
     text-align: left;
-    width:550px;
 }
 
 .report-table td:nth-child(2),
 .report-table td:nth-child(3) {
     text-align: center;
-    width: 70px;
+    width: 80px;
 }
 
 .report-table td:nth-child(4) {
-    padding-left: 50px;
+    padding-left: 30px;
 }
 
 .title{
-    color: darkgrey;
+    color: grey;
     font-size: 16px;
     padding-top: 30px;
     padding-left: 10px;
